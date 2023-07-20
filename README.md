@@ -1,14 +1,12 @@
 # snakeAI
-This model classifies an image of either a prairie rattlesnake, which has a venomous bite, or a plains garter snake, which is generally not harmful to humans. Both snakes can be found in the same habitat in areas such as North America.
+This model classifies an image of either a prairie rattlesnake, which has a venomous bite, or a plains garter snake, which is generally not harmful to humans. Both snakes can be found in the same habitat in areas such as North America. This model may be especially helpful to those who are hiking/outdoors to identify a veonomous prairie rattlesnake.
 
 # The Algorithm
-
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+This re-trained ResNet-18 model was created on Jetson Nano and trained on a dataset of Prairie rattlesnake images and Plains garter snake images. It runs on an imagenet.py program that will classify the snake as either species.
 
 # Running This Project
-
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
-/home/nvidia/jetson-inference/python/training/classification/data/snake3
+1. Make sure that both the Jetson Inference library and Python3 are installed on your Jetson Nano.
+2. Open the terminal and navigate to the classification directory: cd jetson-inference/python/training/classification$
+3. 
 
 View a video explanation here: (video link)
