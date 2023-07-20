@@ -6,7 +6,7 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 
 # Running This Project
 1. Make sure that both the Jetson Inference library and Python3 are installed on your Jetson Nano.
-2. Download the resnet18.onnx and model_best.pth.tar... you should also include the filepath to models folder)
+2. Download the resnet18.onnx and model_best.pth.tar.
 3. Download the data folder (images):
 4. Open the terminal and navigate to the classification directory: cd jetson-inference/python/training/classification$
 5. Set the net and data variables as shown below:
