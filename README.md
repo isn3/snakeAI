@@ -17,5 +17,6 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 ```
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/rattle/rattle5.jpg         snake3.jpg
 ```
+6. Finally, view the image output to see the classification.
 
 View a video explanation here: (video link)
