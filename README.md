@@ -14,11 +14,11 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
    $ NET=models/snake
    $ DATASET=data/snake3
 ```
-5. Use this command to process an image:
+6. Use this command to process an image:
 ```
    imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/rattle/rattle4.jpg snake3.jpg
 ```
-6. Alternatively, if you would like to use your own prairie rattlesnake or plains garter snake image, add it to one of the directories under the test directory and use the above command and edit "rattle/rattle4.jpg" accordingly to the folder and name of your image.
-7. Finally, view the image output to see the classification as "prairie rattlesnake" or "garter snake."
+7. Alternatively, if you would like to use your own prairie rattlesnake/plains garter snake image, add it to one of the directories under the test directory and use the above command and edit "rattle/rattle4.jpg" accordingly to the folder and name of your image.
+8. Finally, view the image output to see the classification as "prairie rattlesnake" or "garter snake."
 
 View a video explanation here: (video link)
