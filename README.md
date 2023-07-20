@@ -23,5 +23,6 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 ```
 7. Alternatively, if you would like to use your own prairie rattlesnake/plains garter snake image, add it to one of the directories under the test directory and use the above command and edit "rattle/rattle4.jpg" accordingly to the folder and name of your image.
 8. Finally, view the image output to see the classification as "prairie rattlesnake" or "garter snake."
+
    
 View a video explanation here: (video link)
