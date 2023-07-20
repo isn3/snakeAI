@@ -9,8 +9,8 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 2. And download the resnet18.onnx.
 3. Open the terminal and navigate to the classification directory: cd jetson-inference/python/training/classification$
 ```
-  5. $ NET=models/snake
-  6. $ DATASET=data/snake3
+   $ NET=models/snake
+   $ DATASET=data/snake3
 ```
 7. imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/rattle/rattle5.jpg snake3.jpg 
 
