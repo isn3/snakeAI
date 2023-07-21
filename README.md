@@ -10,7 +10,7 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 3. Download the data folder (images). Link to data: (https://drive.google.com/drive/u/0/folders/1gJKHu09UoMbe0EvLXrBIfYXrUDE_lXbs)
 4. Open the terminal and navigate to the classification directory:
 ```
-   cd jetson-inference/python/training/classification$
+   cd jetson-inference/python/training/classification
 ```
 7. Set the net and data variables as shown below:
 ```
