@@ -25,4 +25,5 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 8. Finally, view the image output to see the classification as "prairie rattlesnake" or "garter snake." 
 
 
+
 View a video explanation here: https://youtu.be/uDxO2ob88dA
