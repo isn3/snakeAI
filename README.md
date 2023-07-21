@@ -10,7 +10,7 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 3. Download the data folder (images). Link to data: (https://drive.google.com/drive/u/0/folders/1gJKHu09UoMbe0EvLXrBIfYXrUDE_lXbs)
 4. Open the terminal and navigate to the classification directory:
 ```
-   cd jetson-inference/python/training/classification
+   $ cd jetson-inference/python/training/classification
 ```
 7. Set the net and data variables as shown below:
 ```
@@ -19,7 +19,7 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 ```
 6. Use this command to process an image:
 ```
-   imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/rattle/rattle4.jpg snake3.jpg
+   $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/rattle/rattle4.jpg snake3.jpg
 ```
 7. Alternatively, if you would like to use your own prairie rattlesnake/plains garter snake image, add it to one of the directories under the test directory and use the above command and edit "rattle/rattle4.jpg" accordingly to the folder and name of your image.
 8. Finally, view the image output to see the classification as "prairie rattlesnake" or "garter snake." 
